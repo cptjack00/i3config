@@ -30,10 +30,10 @@ bindsym $mod+d layout toggle split
 # Enable touchpad natural scrolling
 #exec_always --no-startup-id xinput set-prop "DELL07E6:00 06CB:76AF Touchpad" "libinput Natural Scrolling Enabled" 1
 
-bindsym $mod+Shift+Return exec gnome-terminal
+bindsym $mod+Shift+Return exec konsole 
 bindsym $mod+Shift+w exec firefox 
-bindsym $mod+Shift+f exec gnome-terminal -e ranger
-bindsym $mod+Shift+v exec gnome-terminal -e vim
+bindsym $mod+Shift+f exec konsole -e ranger
+bindsym $mod+Shift+v exec konsole -e vim
 
 bindsym $mod+space --release exec "rofi -combi-modi drun,window,ssh -show combi -modi combi"
 bindsym $mod+q kill
